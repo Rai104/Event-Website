@@ -1,0 +1,322 @@
+a:link{
+    color:rgb(112, 11, 206);
+}
+
+a:visited{
+    color:rgb(17, 108, 184);
+}
+
+a:hover{
+    color:rgb(80, 255, 194);
+}
+
+a:active{
+    color:cornflowerblue;
+}
+
+.block{
+    margin: 25px;
+}
+
+#header-img{
+    padding-top: 20px;
+    width: 400px;
+    max-width: max-content;
+    max-height: max-content;
+    border-radius: 20%;
+}
+
+#theme-button{
+    border-radius: 50%;
+    color:rgb(241, 215, 255);
+    background-color: rgb(32, 0, 66);
+    padding: 15px;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color:rgb(31, 1, 58);
+}
+
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode h3 {
+    color: rgb(226, 168, 255);
+}
+
+.dark-mode p,
+.dark-mode li {
+    color: rgb(190, 73, 96);
+}
+
+.dark-mode a:link,
+.dark-mode article p{
+    color: rgb(19, 69, 195);
+}
+
+.dark-mode a:hover,
+.dark-mode article p:hover{
+    color:rgb(50, 164, 124);
+}
+
+.dark-mode .navbar{
+    background-color:blueviolet;
+}
+
+.dark-mode .box{
+    background-color: rgb(0, 91, 91);
+}
+
+
+#Main-Heading{
+    display:inline-block;
+    color:rgb(251, 127, 148);
+    font-style: italic;
+    font-weight: 200;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(143, 201, 253);
+    border-radius: 50%;
+    line-height: 50px;
+    padding: 15px 15px 15px 15px;
+}
+
+.button{
+    background-color: rgb(20, 87, 146);
+    color:rgb(237, 100, 100);
+    text-align: center;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 30%;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-color: darkblue;
+    cursor: pointer;
+}
+
+.button:hover{
+    border-radius: 50%;
+    background-color: rgb(7, 7, 96);
+}
+
+body{
+    margin-top: 0;
+    margin-bottom: 70px;
+    background-color: rgb(71, 164, 164);
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.header-item:nth-of-type(1){
+    left: 0;
+}
+
+.header-item:nth-of-type(2){
+    right: 0;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgb(106, 187, 63)
+}
+
+.navbar ul {
+    z-index: 1000; /* Ensures the navbar is on top of other elements */
+    list-style-type: none;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar ul li {
+    left: 0;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    color:rgb(184, 255, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+.navbar ul li a:hover {
+    color: rgb(255, 68, 236);
+}
+
+
+h2{
+    text-align: center;
+    color: rgb(110, 38, 217);
+}
+
+h3{
+    text-align: center;
+    color:rgb(157, 3, 34);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+li{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+div{
+    text-align: center;
+}
+
+.content{
+    margin-top: 70px;
+}
+
+#events{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.box{
+    background-color: rgba(164, 255, 255, 0.746);
+    padding: 20px;
+}
+
+#linkstitle{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.chunk{
+    padding: 5px;
+}
+
+#rsvp-button{
+    color: aliceblue;
+    background-color: rgb(69, 4, 131);
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.rsvp-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.rsvp-para{
+    width: 55%;
+    padding-right: 10px;
+}
+
+.rsvp-participants{
+    width: 45%;
+    padding-right: 10px;
+}
+
+.dark-mode label{
+    color: rgb(180, 220, 255);
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  background-color: rgb(255, 89, 89);
+  border-color: red;
+}
+
+#success-modal {
+  display: none;   /* modal should be hidden by default*/
+  position: fixed; /* modal cannot move around the screen */
+  z-index: 2;      /* modal appears above other elements */ 
+  
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Add a semi-transparent background to shadow non-modal elements*/
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black */
+
+  /* Flexbox settings for modal */
+  /* These won't apply until we update "display:" from "hidden" to "flex" in our JS */
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container {
+    /* Change modal size and spacing here */
+    padding: 50px;
+    width: 55%;
+
+    background-color: lightsteelblue;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+
+    /* Optional: Use flexbox to customize .modal-item layout */
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#modal-item{
+    color:rgb(169, 22, 52);
+}
+
+#modal-img{
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    display:flex;
+    gap: 20px;
+    background-color: rgb(177, 219, 255);
+    padding: 10px;
+}
